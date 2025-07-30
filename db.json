@@ -1,0 +1,177 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "description": "Electronic devices and gadgets"
+    },
+    {
+      "id": "2",
+      "name": "Clothing",
+      "description": "Fashion and apparel"
+    },
+    {
+      "id": "3",
+      "name": "Books",
+      "description": "Books and literature"
+    },
+    {
+      "id": "4",
+      "name": "Home & Garden",
+      "description": "Home improvement and gardening"
+    }
+  ],
+  "products": [
+    {
+      "id": "3",
+      "name": "Nike Air Max",
+      "price": 129.99,
+      "quantity": 100,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "description": "Comfortable running shoes with great cushioning",
+      "categoryId": "2"
+    },
+    {
+      "id": "4",
+      "name": "Adidas T-Shirt",
+      "price": 29.99,
+      "quantity": 200,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "description": "Comfortable cotton t-shirt for everyday wear",
+      "categoryId": "2"
+    },
+    {
+      "id": "5",
+      "name": "The Great Gatsby",
+      "price": 12.99,
+      "quantity": 75,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "description": "Classic American novel by F. Scott Fitzgerald",
+      "categoryId": "3"
+    },
+    {
+      "id": "6",
+      "name": "Garden Hose",
+      "price": 24.99,
+      "quantity": 30,
+      "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400",
+      "description": "Durable garden hose for watering plants",
+      "categoryId": "4"
+    },
+    {
+      "id": "7",
+      "name": "MacBook Pro",
+      "price": 1499.99,
+      "quantity": 25,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "description": "Professional laptop for creative work",
+      "categoryId": "1"
+    },
+    {
+      "id": "8",
+      "name": "Wireless Headphones",
+      "price": 199.99,
+      "quantity": 60,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "description": "High-quality wireless headphones with noise cancellation",
+      "categoryId": "1"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "name": "Ahmed Mohamed",
+      "phone": "+1234567890",
+      "address": "123 Main St, New York, NY 10001",
+      "email": "ahmed.mohamed@email.com",
+      "price": 999.99,
+      "total": 1049.99,
+      "status": "processing",
+      "orderDate": "2024-01-15T10:30:00Z",
+      "items": [
+        {
+          "productId": "1",
+          "productName": "iPhone 15 Pro",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Fatima Ali",
+      "phone": "+1987654321",
+      "address": "456 Oak Ave, Los Angeles, CA 90210",
+      "email": "fatima.ali@email.com",
+      "price": 129.99,
+      "total": 139.99,
+      "status": "delivered",
+      "orderDate": "2024-01-14T14:20:00Z",
+      "items": [
+        {
+          "productId": "3",
+          "productName": "Nike Air Max",
+          "quantity": 1,
+          "price": 129.99
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mohamed Hassan",
+      "phone": "+1122334455",
+      "address": "789 Pine St, Chicago, IL 60601",
+      "email": "mohamed.hassan@email.com",
+      "price": 59.98,
+      "total": 64.98,
+      "status": "shipped",
+      "orderDate": "2024-01-13T09:15:00Z",
+      "items": [
+        {
+          "productId": "4",
+          "productName": "Adidas T-Shirt",
+          "quantity": 2,
+          "price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sara Mahmoud",
+      "phone": "+1555666777",
+      "address": "321 Elm St, Miami, FL 33101",
+      "email": "sara.mahmoud@email.com",
+      "price": 1499.99,
+      "total": 1569.99,
+      "status": "processing",
+      "orderDate": "2024-01-12T16:45:00Z",
+      "items": [
+        {
+          "productId": "7",
+          "productName": "MacBook Pro",
+          "quantity": 1,
+          "price": 1499.99
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Ali Ahmed",
+      "phone": "+1888999000",
+      "address": "654 Maple Dr, Seattle, WA 98101",
+      "email": "ali.ahmed@email.com",
+      "price": 24.99,
+      "total": 29.99,
+      "status": "cancelled",
+      "orderDate": "2024-01-11T11:30:00Z",
+      "items": [
+        {
+          "productId": "6",
+          "productName": "Garden Hose",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.table th {
+  border-top: none;
+  font-weight: 600;
+}
+
+.btn-group .btn {
+  margin-right: 5px;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.badge {
+  font-size: 0.75rem;
+} 
